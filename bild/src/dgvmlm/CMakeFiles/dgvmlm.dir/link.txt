@@ -1,0 +1,2 @@
+/bin/ar qc libdgvmlm.a CMakeFiles/dgvmlm.dir/dgopt.f.o CMakeFiles/dgvmlm.dir/dginitial.f.o CMakeFiles/dgvmlm.dir/dgfun.f.o CMakeFiles/dgvmlm.dir/dgerr.f.o CMakeFiles/dgvmlm.dir/dgsel.f.o
+/bin/ranlib libdgvmlm.a

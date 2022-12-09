@@ -1,0 +1,1 @@
+/bin/cc -O3 -DNDEBUG -rdynamic CMakeFiles/dgsol_p.dir/dgsol.c.o -o dgsol_p  -Wl,-rpath,/data/project_cg/anaconda3/lib ../dgvmlm/libdgvmlm.a ../vmlm/libvmlm.a ../csrch/libcsrch.a ../blas/libblas.a ../utils/libutils.a /data/project_cg/anaconda3/lib/libmpicxx.so /data/project_cg/anaconda3/lib/libmpi.so -lgfortran -lm -lquadmath -lm 

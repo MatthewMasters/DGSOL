@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/data/exp/DGSOL/src/dgsol_j/dgsol.h
+
+/data/exp/DGSOL/src/dgsol_j/dgsol_seq_lib.h
+dgsol.h
+/data/exp/DGSOL/src/dgsol_j/dgsol.h
+
+/data/exp/DGSOL/src/dgsol_j/dgsolj_seq_test.cpp
+dgsol_seq_lib.h
+/data/exp/DGSOL/src/dgsol_j/dgsol_seq_lib.h
+stdio.h
+-
+

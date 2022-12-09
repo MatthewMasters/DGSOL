@@ -1,0 +1,38 @@
+The MPI test test_mpi for Fortran in mode F90_MODULE failed to compile with the following output:
+Change Dir: /data/exp/DGSOL/bild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake cmTC_65dc5/fast && /bin/gmake  -f CMakeFiles/cmTC_65dc5.dir/build.make CMakeFiles/cmTC_65dc5.dir/build
+gmake[1]: Entering directory '/data/exp/DGSOL/bild/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_65dc5.dir/test_mpi.f90.o
+/bin/f95  -I/data/project_cg/anaconda3/include -fno-underscoring -march=native  -c /data/exp/DGSOL/bild/CMakeFiles/FindMPI/test_mpi.f90 -o CMakeFiles/cmTC_65dc5.dir/test_mpi.f90.o
+/data/exp/DGSOL/bild/CMakeFiles/FindMPI/test_mpi.f90:2:11:
+
+    2 |       use mpi
+      |           1
+Fatal Error: Cannot read module file ‘/data/project_cg/anaconda3/include/mpi.mod’ opened at (1), because it was created by a different version of GNU Fortran
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_65dc5.dir/build.make:85: CMakeFiles/cmTC_65dc5.dir/test_mpi.f90.o] Error 1
+gmake[1]: Leaving directory '/data/exp/DGSOL/bild/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_65dc5/fast] Error 2
+
+
+
+The MPI test test_mpi for Fortran in mode F08_MODULE failed to compile with the following output:
+Change Dir: /data/exp/DGSOL/bild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake cmTC_61dc4/fast && /bin/gmake  -f CMakeFiles/cmTC_61dc4.dir/build.make CMakeFiles/cmTC_61dc4.dir/build
+gmake[1]: Entering directory '/data/exp/DGSOL/bild/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_61dc4.dir/test_mpi.f90.o
+/bin/f95  -I/data/project_cg/anaconda3/include -fno-underscoring -march=native  -c /data/exp/DGSOL/bild/CMakeFiles/FindMPI/test_mpi.f90 -o CMakeFiles/cmTC_61dc4.dir/test_mpi.f90.o
+/data/exp/DGSOL/bild/CMakeFiles/FindMPI/test_mpi.f90:2:11:
+
+    2 |       use mpi_f08
+      |           1
+Fatal Error: Cannot open module file ‘mpi_f08.mod’ for reading at (1): No such file or directory
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_61dc4.dir/build.make:85: CMakeFiles/cmTC_61dc4.dir/test_mpi.f90.o] Error 1
+gmake[1]: Leaving directory '/data/exp/DGSOL/bild/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_61dc4/fast] Error 2
+
+
+

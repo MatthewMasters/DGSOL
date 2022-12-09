@@ -1,0 +1,2 @@
+/bin/ar qc libutils.a  CMakeFiles/utils.dir/dnrm2.f.o CMakeFiles/utils.dir/dpmeps.f.o CMakeFiles/utils.dir/surn01.f.o
+/bin/ranlib libutils.a

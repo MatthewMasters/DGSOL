@@ -1,0 +1,1 @@
+/bin/cc -O3 -DNDEBUG  -rdynamic CMakeFiles/dgsol_s.dir/dgsol.c.o  -o dgsol_s  ../dgvmlm/libdgvmlm.a ../vmlm/libvmlm.a ../csrch/libcsrch.a ../blas/libblas.a ../utils/libutils.a -lgfortran -lm -lquadmath -lm 

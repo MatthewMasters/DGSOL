@@ -1,0 +1,2 @@
+/bin/ar qc libcsrch.a CMakeFiles/csrch.dir/dcsrch.f.o CMakeFiles/csrch.dir/dcstep.f.o
+/bin/ranlib libcsrch.a

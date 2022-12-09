@@ -1,0 +1,2 @@
+/bin/ar qc libvmlm.a  CMakeFiles/vmlm.dir/dlmmv.f.o CMakeFiles/vmlm.dir/dvmlm.f.o
+/bin/ranlib libvmlm.a

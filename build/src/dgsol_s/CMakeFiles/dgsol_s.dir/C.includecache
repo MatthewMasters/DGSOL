@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/data/masters/tools/DGSOL/src/dgsol_s/dgsol.c
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+

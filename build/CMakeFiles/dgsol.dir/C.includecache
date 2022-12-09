@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/data/masters/tools/DGSOL/src/dgsol_j/dgsol.h
+
+/data/masters/tools/DGSOL/src/dgsol_j/dgsol_seq_lib.c
+malloc.h
+-
+dgsol_seq_lib.h
+/data/masters/tools/DGSOL/src/dgsol_j/dgsol_seq_lib.h
+
+/data/masters/tools/DGSOL/src/dgsol_j/dgsol_seq_lib.h
+dgsol.h
+/data/masters/tools/DGSOL/src/dgsol_j/dgsol.h
+

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/data/exp/DGSOL/src/dgsol_p/dgsol.c
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+mpi.h
+/data/exp/DGSOL/src/dgsol_p/mpi.h
+
+/data/project_cg/anaconda3/include/mpi.h
+stddef.h
+-
+cstdint
+-
+stdint.h
+-
+mpio.h
+/data/project_cg/anaconda3/include/mpio.h
+mpicxx.h
+/data/project_cg/anaconda3/include/mpicxx.h
+
+/data/project_cg/anaconda3/include/mpicxx.h
+stdio.h
+-
+
+/data/project_cg/anaconda3/include/mpio.h
+mpi.h
+/data/project_cg/anaconda3/include/mpi.h
+

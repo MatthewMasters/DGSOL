@@ -1,0 +1,20 @@
+The MPI test test_mpi for Fortran in mode F08_MODULE failed to compile with the following output:
+Change Dir: /data/masters/tools/DGSOL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/make cmTC_cbffb/fast && /bin/make -f CMakeFiles/cmTC_cbffb.dir/build.make CMakeFiles/cmTC_cbffb.dir/build
+make[1]: Entering directory '/data/masters/tools/DGSOL/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_cbffb.dir/test_mpi.f90.o
+/bin/f95  -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/lib/x86_64-linux-gnu/openmpi/lib  -fno-underscoring -march=native    -pthread -c /data/masters/tools/DGSOL/build/CMakeFiles/FindMPI/test_mpi.f90 -o CMakeFiles/cmTC_cbffb.dir/test_mpi.f90.o
+Linking Fortran executable cmTC_cbffb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbffb.dir/link.txt --verbose=1
+/bin/f95    -pthread  -fno-underscoring -march=native  CMakeFiles/cmTC_cbffb.dir/test_mpi.f90.o  -o cmTC_cbffb  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_usempif08.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_usempi_ignore_tkr.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_mpifh.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+/bin/ld: CMakeFiles/cmTC_cbffb.dir/test_mpi.f90.o: in function `MAIN__':
+test_mpi.f90:(.text+0x10): undefined reference to `mpi_init_f08'
+/bin/ld: test_mpi.f90:(.text+0x1c): undefined reference to `mpi_finalize_f08'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_cbffb.dir/build.make:91: cmTC_cbffb] Error 1
+make[1]: Leaving directory '/data/masters/tools/DGSOL/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_cbffb/fast] Error 2
+
+
+

@@ -1,0 +1,1 @@
+/bin/cc -O3 -DNDEBUG  -rdynamic CMakeFiles/dgsol_p.dir/dgsol.c.o  -o dgsol_p  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib ../dgvmlm/libdgvmlm.a ../vmlm/libvmlm.a ../csrch/libcsrch.a ../blas/libblas.a ../utils/libutils.a /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so -lgfortran -lm -lquadmath -lm 

@@ -1,0 +1,1 @@
+/bin/cc -O3 -DNDEBUG  -rdynamic CMakeFiles/dgsol.dir/src/dgsol_j/dgsol_seq_lib.c.o CMakeFiles/dgsol.dir/src/dgsol_j/dgsolj_seq_test.cpp.o  -o dgsol  src/dgvmlm/libdgvmlm.a src/vmlm/libvmlm.a src/csrch/libcsrch.a src/blas/libblas.a src/utils/libutils.a -lgfortran -lm -lquadmath -lm -lstdc++ -lm 
